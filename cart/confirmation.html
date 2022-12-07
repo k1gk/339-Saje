@@ -1,0 +1,81 @@
+<!-- this is cart html -->
+
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width = device-width, initial-scale=1">
+
+		<title>A2_SajeWebsite</title>
+	
+		<!--link rel="stylesheet" href="css/normalize.css"-->
+		<link href="css/confirmation.css" rel="stylesheet">
+		<link href="../fonts.css" rel="stylesheet">
+        <link href="../main.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&family=Raleway:wght@100;400;700&family=Rhodium+Libre&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	</head>
+
+    <body>
+        <header id="myTopnav">
+            <a href="../home page/index.html"><img class="logo" class="saje_logo" src="../images/Saje Natural Wellness Logo.svg" alt="logo"></a>
+    
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <a href="javascript:void(0);" class="drop_logo" onclick="myFunction()">&#9776;</a>
+                </button>
+                <div class="dropdown-content">
+                  <a href="../lists/diffList.html">Diffusers</a>
+                  <a href="../lists/oilList.html">Essential Oils</a>
+                  <a href="../about/about.html">About Us</a>
+                </div>
+              </div>
+
+              <a class="cta" href="../cart/cart.html"><button>Cart</button></a>
+
+        </header>
+
+        <!--------------  all html files need the above lines (has to be modified)  ---------------->
+        <div class="boxC">
+            
+            <div class="cfm">
+                <img class="cImg" src="../images/happyHome1.jpeg" alt="remedyBar">
+            </div>
+
+            <div class="cfm">
+                <div class="cfmText">
+                    <!-- <h1 id="conf">Thank you!</h1>
+                    <p id="confirmation">Your order has been placed successfully. Please click the button below to return to our main page.</p> -->
+                    <h2 class="cfmComment">Thank you!</h2>
+                    <p id="confirmation">Your order has been placed successfully. Please click the button below to return to our home page.</p>
+                <!-- </div>
+
+                <div class="cfmText"> -->
+                    <a class="return" href="../home page/index.html"><button>Home</button></a>
+                </div>
+            </div>
+        </div>
+
+ <!--------------  all html files need the below line (has to be modified)  ---------------->
+ <footer>
+    <div class="barB">
+        <ul class="hours">
+            <h4>Hours of Service</h4>
+            <li> Monday to Friday, 7AM - 5PM</li>
+            <li>Saturday to Sunday, 8AM - 4PM</li>
+        </ul>
+
+        <ul class="contact_us">
+            <h4>Contact Us</h4>
+            <li>hello@saje.com</li>
+            <li>1-877-275-7253</li>
+        </ul>
+    </div>
+    <img class="logo" src="../images/Saje Natural Wellness Logo.svg" alt="logo">
+</footer>
+</body>
+
+</html>

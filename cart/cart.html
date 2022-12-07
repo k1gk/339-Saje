@@ -1,0 +1,162 @@
+<!-- this is cart html -->
+
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width = device-width, initial-scale=1">
+
+		<title>A2_SajeWebsite</title>
+	
+		<!--link rel="stylesheet" href="css/normalize.css"-->
+		<link href="css/cart.css" rel="stylesheet">
+		<link href="../fonts.css" rel="stylesheet">
+        <link href="../main.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&family=Raleway:wght@100;400;700&family=Rhodium+Libre&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	</head>
+
+    <body>
+        <header id="myTopnav">
+            <a href="../home page/index.html"><img class="logo" class="saje_logo" src="../images/Saje Natural Wellness Logo.svg" alt="logo"></a>
+    
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <a href="javascript:void(0);" class="drop_logo" onclick="myFunction()">&#9776;</a>
+                </button>
+                <div class="dropdown-content">
+                  <a href="../lists/diffList.html">Diffusers</a>
+                  <a href="../lists/oilList.html">Essential Oils</a>
+                  <a href="../about/about.html">About Us</a>
+                </div>
+              </div>
+
+              <a class="cta" href="../cart/cart.html"><button>Cart</button></a>
+
+        </header>
+
+        <!--------------  all html files need the above lines (has to be modified)  ---------------->
+        <div class="checkout">
+            <div class="boxP">
+                <div class="smry"><h3>Cart</h3></div>
+                <div class="smry">
+                    <ul class="prod">
+                        <li class="square"><img class="pImg" src="../images/happyHome1.jpeg" alt="remedyBar"><br>Happy Home Collection
+                        </li> 
+                        <!-- <li class="detail">Happy Home Collection</li> -->
+                        <li class="detail">-&emsp;1&emsp;+</li>
+                        <li class="detail">&emsp;&emsp;$48</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info">
+                <h3>Personal Information</h3>
+                    <form class="info-item" method="post">
+                        <label for="infoTitle">Name</label><br>
+                        <input class="infoInput" type="text" placeholder="&nbsp;&nbsp;First Last">
+                    </form>
+
+                    <form class="info-item" method="post">
+                        <label for="infoTitle">Phone #</label><br>
+                        <input class="infoInput" type="tel" placeholder="&nbsp;&nbsp;XXX)XXX-XXXX">
+                    </form>
+
+                    <form class="info-item" method="post">
+                        <label for="infoTitle">Email</label><br>
+                        <input class="infoInput" type="email" placeholder="&nbsp;&nbsp;email@address.com">
+                    </form>
+            </div>
+
+            <div class="info">
+                <h3>Shipping Address</h3>
+
+                    <form class="info-item" method="post">
+                        <label for="infoTitle">Address</label><br>
+                        <input class="infoInput" type="text" placeholder="&nbsp;&nbsp;enter your address here">
+                    </form>
+
+                    <div class="smallInfo-item">
+                        <div class="smallInfo">
+                            <form class="info-item" method="post">
+                                <label for="infoTitle">City</label><br>
+                                <input class="addr" type="text" placeholder="&nbsp;&nbsp;city">
+                            </form>
+                        </div>
+
+                        <div class="smallInfo-item">
+                            <form class="info-item" method="post">
+                                <label for="infoTitle">Postal Code</label><br>
+                                <input class="addr" type="text" placeholder="&nbsp;&nbsp;A1A 1A1" maxlength="6">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="smallInfo">
+                        <form class="info-item" method="get">
+                            <label for="infoTitle">Province</label><br>
+                            <select class="selP" placeholder="province">
+                                <option value="Province">&nbsp;&nbsp;Province</option>
+                                <option value="Alberta">&nbsp;&nbsp;Alberta</option>
+                                <option value="British Columbia">&nbsp;&nbsp;British Columbia</option>
+                                <option value="Manitoba">&nbsp;&nbsp;Manitoba</option>
+                                <option value="New Brunswick">&nbsp;&nbsp;New Brunswick</option>
+                                <option value="Newfoundland and Labrador">&nbsp;&nbsp;Newfoundland and Labrador</option>
+                                <option value="Nova Scotia">&nbsp;&nbsp;Nova Scotia</option>
+                                <option value="Ontario">&nbsp;&nbsp;Ontario</option>
+                                <option value="Prince Edward Island">&nbsp;&nbsp;Prince Edward Island</option>
+                                <option value="Quebec">&nbsp;&nbsp;Quebec</option>
+                                <option value="Saskatchewan">&nbsp;&nbsp;Saskatchewan</option>
+                            </select>
+                        </form>
+                    </div>
+            </div>
+        
+            <div class="info">
+                <h3>Payment Information</h3>
+                
+                    <form class="info-item" method="post">
+                        <label for="infoTitle">Card Number</label><br>
+                        <input class="infoInput" type="text" placeholder="&nbsp;&nbsp;XXXX XXXX XXXX XXXX" required maxlength="16">
+                    </form>
+
+                    <div class="cardInfo">
+                        <form class="info-item" method="post">
+                            <label for="infoTitle">Expiration Date</label><br>
+                            <input class="exp" type="month" required min="2022-03" max="2072-03">
+                        </form>
+                    </div>
+                    <div class="cardInfo">
+                        <form class="info-item" method="post">
+                            <label for="infoTitle">CVV Code</label><br>
+                            <input class="cvv" type="text" placeholder="&nbsp;&nbsp;XXX" maxlength="3">
+                        </form>
+                    </div>
+            </div>
+
+            <a class="buyB" href="../cart/confirmation.html"><button>Buy</button></a>
+        </div>
+
+ <!--------------  all html files need the below line (has to be modified)  ---------------->
+ <footer>
+    <div class="barB">
+        <ul class="hours">
+            <h4>Hours of Service</h4>
+            <li> Monday to Friday, 7AM - 5PM</li>
+            <li>Saturday to Sunday, 8AM - 4PM</li>
+        </ul>
+
+        <ul class="contact_us">
+            <h4>Contact Us</h4>
+            <li>hello@saje.com</li>
+            <li>1-877-275-7253</li>
+        </ul>
+    </div>
+    <img class="logo" src="../images/Saje Natural Wellness Logo.svg" alt="logo">
+</footer>
+</body>
+
+</html>

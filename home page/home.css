@@ -1,0 +1,192 @@
+/* Start of the product selection section */
+
+.item-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.list{
+    width: 50%;
+    position: relative;
+}
+
+img.hero_image {
+    width: 100%;
+}
+
+.list:hover , .square:hover {
+    transform:scale(1.01);
+    filter: blur(2px);
+}
+
+@media (max-width: 687px) {
+    .list {
+        width: 100%;
+    }
+}
+
+/* End of product selection page */
+
+/* Start of featured item selection */
+
+.featured_items {
+    margin: 4rem;
+}
+
+h1 {
+    font-family: 'Rhodium Libre', serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+ul.all_items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+
+li.square {
+    list-style-type: none;
+    text-align: center;
+}
+
+.f-Item{
+    width: 100%;
+}
+
+@media (min-width: 1440px) {
+    li.square {
+        width: 20%;
+        height: 20%;
+    }
+}
+
+@media (max-width: 900px) {
+    ul.all_items {
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width: 330px) {
+    h2{
+        line-height: 0;
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 0.7rem;
+    }
+}
+
+/* End of featured item selection */
+
+/* Start of home page break section */
+
+.break_page {
+    background: #FEFAE0;
+    padding: 9rem 15%;
+}
+
+/* End of break page */
+
+/* Start of our believers */
+
+.our_believers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+ul.all_believers {
+    width: 80%;
+    list-style-type: none;
+}
+
+li.circle {
+    width: 6rem;
+    height: 6rem;
+    /* background-color: #e8b37e; */
+    background-color: #CCD5AE;
+    margin: 1rem;
+    list-style-type: none; 
+    border-radius: 50%;
+}
+
+.comp{
+    justify-content: center;
+    width: 4.25rem;
+    height: 4.25rem;
+
+    margin-top: .75rem;
+    margin-left: .75rem;
+}
+
+/* end of our believers */
+
+/* Start of simple description of saje section */
+
+.simple_about_us {
+    display: flex;
+    width: 100%;
+}
+
+img.about_us {
+    width:50%;
+}
+
+.about_us_description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.about_us_description h4 {
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.17rem;
+    margin-bottom: 2rem;
+}
+
+.learn_more button {
+    width: 10rem;
+    margin: 0;
+}
+
+h4.about_us_text{
+    font-family: Roboto_Slab;
+  }
+
+@media (max-width: 861px) {
+    .simple_about_us {
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 2rem 0;
+    }
+
+    img.about_us {
+        width:100%;
+    }
+
+    .about_us_description {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 434px) {
+    h4.about_us_text{
+        font-size: 0.9rem;
+    }
+}
+
+/* End of simple description of saje section */

@@ -1,0 +1,443 @@
+/* this is main.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mukta', sans-serif;
+}
+
+
+
+/* This is the nav bar section for the css. */
+
+li, a, button {
+  font-family: 'Mukta', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  font-family: 'Mukta', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5.5rem;
+  padding: 0rem 2.5%;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  transform: scale(0.4);
+}
+
+ul.nav_links {
+  font-family: 'Mukta', sans-serif;
+  margin-right: 5rem;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  border-top:  0.1rem white solid;
+  transition: all 0.15s ease 0s;
+}
+
+.nav_links li a:hover {
+  border-top:  0.1rem black solid;
+  margin: 0;
+}
+
+button {
+  font-family: 'Mukta', sans-serif;
+  padding: 5px 25px;
+  color: white;
+  background-color: #CCD5AE;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 6rem;
+}
+
+button:hover {
+  background-color: #D4A373;
+}
+
+@media(max-width: 673px){
+  li, a, button {
+    font-size: 14px;
+  }
+
+  .logo {
+    transform: scale(0.4);
+    margin-right: 0;
+  }
+  
+  ul.nav_links {
+    margin: 0;
+  }
+  
+  .nav_links li {
+    min-width: 105px;
+  }
+    
+  button {
+    padding: 4px;
+    border-radius: 50px;
+    width: 4.5rem;
+  }
+}
+
+@media (max-width: 392px){
+  li, a, button {
+    font-size: 11px;
+  }
+
+  .logo {
+    transform: scale(0.4);
+  }
+  
+  ul.nav_links {
+    margin: 0;
+  }
+  
+  .nav_links li {
+    min-width: 105px;
+  }
+    
+  button {
+    padding: 4px;
+    border-radius: 50px;
+    width: 4.5rem;
+  }
+}
+
+/* This is the end of the nav bar section for the css. */
+/* --------------------------------------------------- */
+
+/* checkout */
+.smry{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+.smry h3{
+  margin-left: 2rem;
+
+  margin-top: 1rem;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+
+  text-align: center;
+}
+
+.info{
+  font-weight: bold;
+  justify-content: center;
+
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.info-item{
+  padding-left: 15%;
+  
+  font-size: .95rem;
+  line-height: 3rem;
+}
+
+.info h3{
+  max-width: 100%;
+  text-align: center;
+
+  padding:0;
+  padding-top: 1rem;
+}
+
+.infoInput{
+  position: relative;
+  max-width: 40rem;
+
+  width: 80%;
+  justify-content: center;
+
+}
+
+.boxP{
+  position: relative;
+  width: 100%;
+  background-color: rgb(254, 250, 224); 
+
+  height: 15rem;
+  margin-top: 1.5rem;
+}
+
+.boxP ul{
+  position: relative;
+
+  display: inline-flex;
+  flex-direction: row;
+
+  list-style: none; 
+
+  justify-content: center;
+
+  margin-top: 1.25rem;
+    
+  height: 2.5rem;
+  width: 100%;
+}
+
+.boxP li{
+  position: relative;
+  align-self: center;
+  text-align: center;
+
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  max-width: 100%;
+
+  font-size: .9rem;
+  margin-left: .5rem;
+  margin-right: .75rem;
+  }
+
+.square{
+  background-color: grey;
+  max-width: 0;
+  /* min-width: 3.5rem;
+  min-height: 3.5rem; */
+  max-height: 0;
+  }
+
+  .pImg{
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  /* .selP, .addr, .cardInfo{
+    display: inline-block;
+  }
+  
+  .cardInfo{
+    min-width: 45%;
+    max-width: 45%;
+    justify-content: center;
+    margin-left: 10%;
+  } */
+  
+  /* .info-item.smallInfo{
+    padding: 2.5rem;
+  } */
+
+  .exp, .addr{
+    width: 35%;
+  }
+  .cvv{
+    width: 20%;
+  }
+
+  /* .smallInfo-item{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    max-width: 100%;
+  } */
+
+  /* .boxP ul{
+    display: inline-block;
+    line-height: 2.5rem;
+  }   */
+  
+  /* .square{
+    background-color: rgb(254, 250, 224);
+    width: 100%;
+    } */
+  
+  .detail{
+    padding-top: 5rem;
+    padding-left: 0;
+  }
+
+  .select{
+    width: 10%;
+    height: auto;
+  }
+
+@media(min-width: 674px){
+  
+  .smry h3{
+    font-size: 150%;
+  }
+
+  .infoInput{
+    width: 50%;
+  }
+
+  .info-item{
+    padding-left: 30%;
+    
+    font-size: 125%;
+    line-height: 3rem;
+    }
+
+    .boxP{
+      height: 18rem;
+    }
+    
+    .square{
+      transform: scale(1.25);
+    }
+
+    .boxP li{
+      font-size: 125%;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .info h3{
+      font-size: 150%;
+    }
+
+    /* .selP, .addr, .smallInfo{
+      display: inline-block;
+      
+    } */
+}
+
+
+
+
+
+/* --------------------------------------------------- */
+/* Start of the button section */
+
+.buyB {
+  display: flex;
+  padding-left: 45%;
+  width: fit-content;
+
+  margin-top: 2rem;
+}
+/* end of the button section */
+
+
+
+/* Start of the footer section */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #CCD5AE;
+  padding: 3rem 10%;
+  margin-top: 5rem;
+  font-family: 'Mukta', sans-serif;
+}
+
+.barB {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+footer .logo {
+  margin: 0;
+  transform: scale(0.7);
+}
+
+.barB h4 {
+  margin-bottom: .9rem;
+  padding: 0;
+  font-size: 1.25rem;
+}
+
+.barB li{
+  font-family: 'Mukta', sans-serif;
+  list-style-type: none; 
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+@media(max-width: 1269px){
+
+  footer {
+    padding: 3rem 10%;
+    margin-top: 5rem;
+  }
+  
+  .barB {
+    width: 50%;
+  }
+  
+  footer .logo {
+    margin: 0;
+    transform: scale(0.7);
+  }
+  
+  .barB h4 {
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+  
+  .barB li{
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+  }
+
+}
+
+@media(max-width: 673px){
+
+  footer .logo {
+    margin-left: 2rem;
+    transform: scale(0.5);
+  }
+
+  .barB{
+    transform: translate(-1rem, 0);
+  }
+
+  .barB h4 {
+    font-size: .8rem;
+    min-width: 130px;
+  }
+
+  .barB li{
+    font-size: 0.75rem;
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 392px){
+
+  footer .logo {
+    margin-left: 1rem;
+    transform: scale(0.3);
+  }
+
+  .barB{
+    transform: translate(-1rem, 0);
+  }
+
+  .barB li{
+    font-size: 0.5rem;
+    min-width: 100px;
+  }
+
+  .contact_us{
+    transform: translate(-2rem,0);
+  }
+}
+
+/* end of the footer section */

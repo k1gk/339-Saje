@@ -1,0 +1,190 @@
+/*  */
+/*  */
+/*  */
+/*  */
+/* Start of the confirmation page */
+
+.boxC{
+    position: relative;
+    width: 100%;
+    background-color: rgb(254, 250, 224); 
+  
+    margin-top: 1.5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .boxC ul{
+    position: relative;
+  
+    display: inline-flex;
+    flex-direction: row;
+  
+    list-style: none; 
+  
+    justify-content: center;
+  
+    margin-top: 1.25rem;
+      
+    height: 2.5rem;
+    width: 100%;
+  }
+  
+  .boxC li{
+    position: relative;
+    align-self: center;
+    text-align: center;
+  
+    margin-left: 10vw;
+    margin-right: 10vw;
+  
+    max-width: 100%;
+  
+    font-size: .9rem;
+    margin-left: .5rem;
+    margin-right: .75rem;
+    }
+    
+  .cImg{
+    width: 15rem;
+    height: 15rem;
+  
+    justify-content: center;
+  }
+  
+  #conf{
+    text-align: center;
+    padding-top: 7.5rem;
+  
+    /* word-wrap: break-word;
+    margin-left: 10%;
+    margin-right: 10%; */
+  }
+  
+  .cfmComment{
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  #confirmation{
+    width: 50%;
+    min-width: 17.5rem;
+    max-width: 27.5rem;
+    text-align: left;
+      max-width: 50%;
+  
+  }
+  
+  .cfm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: center;
+  }
+  
+  .cfmText{
+    display: inline-block;
+  
+    padding-left: 47.5%;
+  }
+  
+  .return {
+    display: flex;
+    justify-content: left;
+  
+    margin-top: 2rem;
+  }
+  
+  footer {
+    margin-top: 0;
+  }
+  
+  
+  @media (max-width: 900px){
+   
+    .boxP{
+      height: 35rem;
+      padding-bottom: 2rem;
+    }
+  
+    .cfmProd{
+      margin-top: 15rem;
+      justify-content: left;
+    }
+  
+    .cImg{
+      width: 50%;
+      max-width: 15rem;
+      height: 50%;
+  
+      margin: 12.5%;
+      margin-bottom: 0;
+    }
+    
+    #confirmation{
+      min-width: 100%;
+      max-width: 100%;
+    }
+  
+    .cfmText{
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 2.5rem;
+
+      min-width: 15rem;
+      max-width: 35rem;
+    }
+    
+    .return {
+      justify-content: right;
+    } 
+  }
+  
+  @media(min-width: 900px){
+
+      .cImg{
+        margin: 35%;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+      
+      #conf{
+        text-align: center;
+        padding-top: 7.5rem;
+      
+        /* word-wrap: break-word;
+        margin-left: 10%;
+        margin-right: 10%; */
+      }
+      
+      #confirmation{
+        width: 50%;
+        min-width: 17.5rem;
+        max-width: 27.5rem;
+        text-align: left;
+        max-width: 50%;
+      
+      }
+      
+      .cfm{
+        display:inline-block;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: center;
+      }
+
+      .cfmText{
+        padding-left: 27.5%;
+      }    
+            
+      .return {
+        justify-content: center;
+        padding-bottom: 0;
+      }
+
+    
+  }
+  
+  /* end of the confirmation section */
+  
